@@ -6,6 +6,7 @@ work_dirs
 
 # dataset files are too big
 data
+work_dirs
 
 # third-party libraries
 FrEIA

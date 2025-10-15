@@ -1,0 +1,12 @@
+['bottle']
+-+-+-+-+-+ bottle +-+-+-+-+-
+Channels of extracted features: [256, 512, 1024]
+Build parallel flows: channels:256, block:2, cond:64
+Build parallel flows: channels:512, block:5, cond:64
+Build parallel flows: channels:1024, block:8, cond:64
+Build fusion flow with channels [256, 512, 1024]
+Loading weights from ./work_dirs/msflow_wide_resnet50_2_avgpool_pl258/mvtec/bottle/best_det.pt
+[2025-10-15-18:25:26] Epoch 1   test loss: -4.976e+05	FPS: 25.7
+Multi-scale sizes: [[64, 64], [32, 32], [16, 16]]
+[2025-10-15-18:25:26] Epoch [1/24] Det.AUROC: last: 100.00	max: 100.00	epoch_max: 1
+[2025-10-15-18:25:35] Epoch [1/24] Loc.AUROC: last: 96.20	max: 96.20	epoch_max: 1

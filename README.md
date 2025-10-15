@@ -21,6 +21,7 @@ Unsupervised anomaly detection (UAD) attracts a lot of research interest and dri
 ## Enviroment
 
 - Python 3.9
+- Numpy 1.21.6
 - scikit-learn
 - scikit-image
 - PyTorch >= 1.10
